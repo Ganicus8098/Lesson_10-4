@@ -193,7 +193,7 @@
 @font-face {
    font-family: 'Cormorant Garamond';
    src: url('../fonts/CormorantGaramond-Medium.woff2'), url('../fonts/CormorantGaramond-Medium.woff');
-   font-weight: medium;
+   font-weight: normal;
    font-style: normal;
    font-display: swap;
 }
@@ -201,7 +201,7 @@
 @font-face {
    font-family: 'Cormorant Garamond';
    src: url('../fonts/CormorantGaramond-SemiBold.woff2'), url('../fonts/CormorantGaramond-SemiBold.woff');
-   font-weight: medium;
+   font-weight: normal;
    font-style: normal;
    font-display: swap;
 }
@@ -1531,7 +1531,7 @@ label {
 }
 
 .submit-button__link {
-   flex-flow: 'Cormorant Garamond';
+   font-family: 'Cormorant Garamond';
    font-weight: 600;
    font-style: normal;
    font-size: 14px;
